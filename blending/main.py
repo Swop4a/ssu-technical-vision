@@ -4,10 +4,10 @@ import numpy as np, sys
 print (cv2.__version__)
 print (sys.version)
 
-A = cv2.imread(sys.path[0] + "/granta.png")
-B = cv2.imread(sys.path[0] + "/niva.png")
+A = cv2.imread(sys.path[0] + "/telegram_blue.png")
+B = cv2.imread(sys.path[0] + "/telegram_purple.png")
 
-DEPTH = 3
+DEPTH = 9
 
 G = A.copy()
 gpA = [G]
