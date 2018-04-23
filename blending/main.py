@@ -7,7 +7,7 @@ print (sys.version)
 A = cv2.imread(sys.path[0] + "/telegram_blue.png")
 B = cv2.imread(sys.path[0] + "/telegram_purple.png")
 
-DEPTH = 9
+DEPTH = 5
 
 G = A.copy()
 gpA = [G]
